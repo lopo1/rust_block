@@ -1,0 +1,10 @@
+[package]
+name = "main"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+core = {path="../core"}
+utils = {path="../utils"}
+wallet = {path="../wallet"}
+tracing-subscriber = "0.3.18"
